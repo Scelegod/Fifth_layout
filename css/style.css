@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 
 .page{
     display: flex;
     flex-direction: column;
+
 }
 a{
     text-decoration: none;
@@ -29,8 +32,6 @@ a{
 }
 .header__item{
     padding-bottom: 8px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -91,8 +92,6 @@ a{
 }
 .two__title{
     margin-top: 20px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 58px;
     line-height: 120%;
@@ -101,8 +100,6 @@ a{
     /* width: 540px; */
 }
 .two__text{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -117,8 +114,6 @@ a{
     border-radius: 0px 20px;
     margin-top: 30px;
 
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -147,8 +142,6 @@ a{
     rotate: -90deg;
 }
 .all_text{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
@@ -178,8 +171,6 @@ a{
     gap: 15px;
 }
 .all__number{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 58px;
     line-height: 100%;
@@ -189,8 +180,6 @@ a{
 }
 
 .all__note{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 120%;
@@ -211,8 +200,6 @@ a{
     margin-top: 65px;
 }
 .all__title{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 58px;
     line-height: 100%;
@@ -220,8 +207,6 @@ a{
     color: #353A5A;
 }
 .all__text{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -234,8 +219,6 @@ a{
     border-radius: 0px 20px;
     padding: 20px 38px;
     width: 230px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -258,8 +241,6 @@ a{
     gap: 15px;
 }
 .photos__text{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 130%;
@@ -298,8 +279,6 @@ a{
     gap: 20px;
 }
 .block__title{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 58px;
     line-height: 120%;
@@ -307,8 +286,6 @@ a{
     width: 500px;
 }
 .block__text{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -321,10 +298,161 @@ a{
     background: #FA9F42;
     border-radius: 0px 20px;
     width: 230px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     color: #FDFDFD;
+}
+
+/* _________________________________________________________________courses_________________________________________________________________ */
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+    /* margin-top: 120px; */
+    gap: 60px;
+}
+.courses__text{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    text-align: center;
+    color: #353A5A;
+}
+.courses__popular{
+    display: flex;
+    gap: 30px;
+}
+.popular__block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 270px;
+}
+.block__img{
+    width: 230px;
+    height: 155px;
+}
+.block__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #353A5A;
+}
+.courser__button{
+    background: #10B582;
+    border-radius: 0px 20px;
+    padding: 20px 74px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FDFDFD;
+}
+.banner{
+    background-image: url(/img/bgrd_banner.png);
+    background-repeat: no-repeat;
+    height: 578px;
+}
+.banner__block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50%;
+    padding-top: 120px;
+}
+.banner__block__title{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    color: #353A5A;
+}
+.banner__block__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #353A5A;
+}
+.banner__block__button{
+    margin-top: 30px;
+    background: #FA9F42;
+    border-radius: 0px 20px;
+    padding: 20px 56px;
+    width: 230px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #FDFDFD;
+}
+/* _________________________________________________________________footer_________________________________________________________________ */
+.footer{
+    margin-top: 80px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__group{
+    display: flex;
+    gap: 100px;
+}
+.group__info-site{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    gap: 27px;
+}
+.info-site__img{
+    width: 170px;
+    height: 22px;
+}
+.info-site__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #353A5A;
+}
+.info-site__soc_net{
+    display: flex;
+    gap: 25px;
+}
+.info-site__soc_net .fa-brands{
+    color: #353A5A;
+    opacity: 0.3;    
+}
+.group__learning, .group__about, .group__contacts, .group__email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learning__text, .learning__first_text, .about__text, .about__first_text, .contacts__first_text, .contacts__text, .email__first_text, .email__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #353A5A;
+}
+.learning__first_text, .about__first_text, .contacts__first_text, .email__first_text{
+    font-weight: 500;   
+    padding-bottom: 10px;
+}
+.footer__policic{
+    display: flex;
+    margin-top: 80px;
+    gap: 400px;
+}
+.pilitic_block{
+    display: flex;
+    gap: 20px
+}
+.politic__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #353A5A;
 }
